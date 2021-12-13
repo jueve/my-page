@@ -4,4 +4,4 @@ date: 2021-12-21
 draft: true
 ---
 
-CTFのpwn問を解こうとすると古いバージョンのglibcを使っていることがある。ELFのバイナリは実行時に`/usr/lib`
+CTFのpwn問を解こうとすると古いバージョンのglibcを使っていることがある。ELFのバイナリは実行時に`/usr/lib`を

@@ -1,6 +1,6 @@
 ---
 title: PicoCTF Stonks writeup
-date: 2021-12-19
+date: 2021-12-13
 ---
 
 ソースコードが与えられるので読んでみると`buy_stonks`関数で以下のことがわかる。
