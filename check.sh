@@ -10,7 +10,7 @@ IMGS=$(find "${PWD}/src/img" -type f)
 for IMG in ${IMGS}
 do
     echo "${IMG}"
-    exiftool -all= ${IMG}
+    exiftool -overwrite_original_in_place -all= ${IMG}
 done
 
 exit 0
