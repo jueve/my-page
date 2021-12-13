@@ -1,0 +1,27 @@
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+{% set postlist = search.pages("type=posts", "date=desc draft=false") %}
+<div class="content">
+    <div class="block">
+        <h1>
+            posts
+        </h1>
+    </div>
+
+    <div class="block">
+        <ul>
+            {% for post in postlist %}
+            <li>
+                <time datetime="{{ post.data.date | date('DATE') }}">
+                    {{ post.data.date | date('DATE') }}
+                </time>
+                <a href="{{ post.data.url }}" rel="noopener noreferrer">
+                {{ post.data.title }}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endblock %}

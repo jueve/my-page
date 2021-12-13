@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div class="container is-max-desktop">
+            <div class="my-6 mx-4">
+                <div class="block">
+                    {% block header %}
+                    <div class="mt-6">
+                        <div class="columns is-1">
+                            <div class="column is-offset-10 has-text-right"><a href="/" rel="noopener noreferrer">Home</a></div>
+                            <div class="column has-text-right"><a href="/about" rel="noopener noreferrer">About</a></div>
+                        </div>
+                    </div>
+                    {% endblock %}
+                </div>
+
+
+                <div class="block">
+                    {% block content %}
+                    {% endblock %}
+                </div>
+
+
+                <div class="block">
+                    <div class="mb-6">
+                        {% block footter %}
+                        <footer>
+                            <div class="has-text-right">
+                                cashitsuki 2021
+                            </div>
+                        </footer>
+                        {% endblock %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
