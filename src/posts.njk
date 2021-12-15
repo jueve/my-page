@@ -1,5 +1,9 @@
 {% extends "layouts/base.njk" %}
 
+{% block head %}
+<title>Posts</title>
+{% endblock %}
+
 {% block content %}
 {% set postlist = search.pages("type=posts", "date=desc draft=false") %}
 <div class="content">
