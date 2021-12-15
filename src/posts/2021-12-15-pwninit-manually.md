@@ -24,7 +24,7 @@ $ docker run -it ubuntu:20.04 /bin/bash
 /root/workdir
 ```
 
-## PicoCTF 'Chache Me Outside'
+## picoCTF 'Chache Me Outside'
 
 picoCTFの[Cache Me Outside](https://play.picoctf.org/practice/challenge/146?category=6&page=1)では問題のバイナリと同時に`libc.so.6`が渡される。
 
