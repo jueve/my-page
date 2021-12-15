@@ -6,7 +6,7 @@ draft: false
 
 CTFのpwn問では特定のバージョンのglibcが与えられることがあり、この場合glibcだけでなくリンカのバージョンも揃える必要がある。
 
-Rust製の[pwninit](https://github.com/io12/pwninit)というツールがあり、`libc.so.6`と問題の`ELF`ファイルを用意すれば該当するバージョンの`deb`パッケージをダウンロードして[patchelf](https://github.com/NixOS/patchelf)でリンカなどの調整もしてくれる。
+これを自動で行ってくれるツールにRust製の[pwninit](https://github.com/io12/pwninit)がある。`libc.so.6`と問題の`ELF`ファイルを用意すれば該当するバージョンの`deb`パッケージをダウンロードして[patchelf](https://github.com/NixOS/patchelf)でリンカの調整もしてくれる。
 
 `pwninit`の挙動が気になったのでソースコードをざっと読みつつ、`deb`パッケージのダウンロード、`patchelf`による`libc.so.6`と`ld`の適用を手動で行った。
 
