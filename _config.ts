@@ -12,6 +12,7 @@ const site = lume({
 
 site.ignore("README.md")
     .ignore("check.sh")
+    .ignore("build.sh")
     .use(basePath())
     .use(date());
 
