@@ -171,7 +171,7 @@ Address: aaa
 Value: t help you: this is a random string.
 ```
 
-`pwninit`は他にもstirpされていない`libc.so.6`に[elfutils](https://sourceware.org/elfutils/)でデバッグ情報を付与したりと機能が豊富なので便利。
+`pwninit`は他にもstripされている`libc.so.6`に[elfutils](https://sourceware.org/elfutils/)でデバッグ情報を付与したりと機能が豊富なので便利。
 
 ## 参考
 - [io12/pwninit](https://github.com/io12/pwninit)
