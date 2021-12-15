@@ -140,7 +140,7 @@ total 2172
 
 ## patchelf
 
-`pwninit`は`patchelf`がインストールされていることが前提なのだが今回用意したDocker環境にはないのでソースコードをダウンロードしてビルドする。
+ソースコードをダウンロードしてビルドする。
 
 ```
 # apt-get install -y gcc g++ build-essential autoconf cmake
@@ -156,7 +156,7 @@ total 2172
 patchelf 0.14.3
 ```
 
-最後に`patchelf`で`RAPTH`とinterpreterを設定すれば問題のバイナリが動くようになる。
+最後に`RAPTH`とinterpreterを設定すれば問題のバイナリが動くようになる。
 
 ```
 # cd /root/workdir
