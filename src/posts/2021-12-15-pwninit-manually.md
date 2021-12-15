@@ -156,7 +156,7 @@ total 2172
 patchelf 0.14.3
 ```
 
-最後に`RAPTH`とinterpreterを設定すれば問題のバイナリが動くようになる。
+最後に`RPATH`とinterpreterを設定すれば問題のバイナリが動くようになる。
 
 ```
 # cd /root/workdir
