@@ -3,7 +3,7 @@ import date from "lume/plugins/date.ts";
 import basePath from "lume/plugins/base_path.ts";
 
 const site = lume({
-    location: new URL("https://cashitsuki.dev"),
+    location: new URL("https://cashitsuki.com"),
     cwd: Deno.cwd(),
     src: "src",
     prettyUrls: true,
