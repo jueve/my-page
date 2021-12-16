@@ -1,5 +1,5 @@
 ---
-title: PicoCTF Stonks writeup
+title: picoCTF Stonks writeup
 date: 2021-12-13
 ---
 
