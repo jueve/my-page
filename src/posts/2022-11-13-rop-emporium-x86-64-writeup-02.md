@@ -5,7 +5,7 @@ date: 2022-11-13
 
 [前回](https://cashitsuki.com/posts/2022-10-19-rop-emporium-x86-64-writeup-01/)の続き。
 
-## badchars
+## Challenge 5 badchars
 
 [問題へのリンク](https://ropemporium.com/challenge/badchars.html)
 
@@ -108,7 +108,7 @@ if __name__ == '__main__':
     exploit()
 ```
 
-## fluff
+## Challenge 6 fluff
 
 [問題へのリンク](https://ropemporium.com/challenge/fluff.html)
 
@@ -207,7 +207,7 @@ if __name__ == '__main__':
     exploit()
 ```
 
-## pivot
+## Challenge 7 pivot
 
 [問題へのリンク](https://ropemporium.com/challenge/pivot.html)
 
@@ -306,7 +306,7 @@ if __name__ == '__main__':
     exploit()
 ```
 
-## ret2csu
+## Challenge 8 ret2csu
 
 [問題へのリンク](https://ropemporium.com/challenge/ret2csu.html)
 
